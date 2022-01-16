@@ -1,5 +1,5 @@
 ---
-- name: Installing solawrWinds Agent on all the managed nodes
+- name: Installing solawrWinds Agent on Linux Devices
   hosts: all
   become: true
   tasks:
