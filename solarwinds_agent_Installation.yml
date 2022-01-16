@@ -1,0 +1,11 @@
+---
+- name: Installing solawrWinds Agent on all the managed nodes
+  hosts: all
+  become: true
+  tasks:
+    - name: Using the 1 line command to deploy solarwind agents
+      shell: PLACE SOLARWINDS SHELL HERE
+      register: output
+
+    - debug:
+        var: output
