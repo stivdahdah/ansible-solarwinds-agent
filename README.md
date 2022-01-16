@@ -1,4 +1,4 @@
-# Ansible Role To Install SolarWinds Agent
+# Ansible Playbook To Install SolarWinds Agent
 No Galaxy modules are required.
 
 This playbook will help you to install SolarWinds Agent on RHEL/CentOS and Debian/Ubuntu.
