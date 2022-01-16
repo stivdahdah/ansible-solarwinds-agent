@@ -14,7 +14,7 @@ Note: RHEL/CentOS generated command is different from Debian/Ubuntu. I would sug
 
 Once the command line is generated copy the command line and place it in Lice-7 after "shell: "
 
-**Example:**
+**Example Playbook**
 Let's say that we generated the below command from SolarWinds.
 We will have to copy the command and place it in Licne-7 as a value for "shell: " in solarwinds_agent_Installation.yml. 
 ```
